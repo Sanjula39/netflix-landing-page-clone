@@ -159,6 +159,20 @@ img {
 
 }
 
+/* hide each content */
+
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+    display: none;
+
+}
+.show{
+    display: block !important;
+}
+    
+
+
 #tab-1-content .tab-1-content-inner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -371,18 +385,18 @@ img {
 
 @media(max-width:700px) {
     .showcase::after {
-		background: rgba(0, 0, 0, 0.6);
-		box-shadow: inset 80px 80px 150px #000000, inset -80px -80px 150px #000000;
-	}
+        background: rgba(0, 0, 0, 0.6);
+        box-shadow: inset 80px 80px 150px #000000, inset -80px -80px 150px #000000;
+    }
 
-	.showcase-content h1 {
-		font-size: 2.5rem;
-		line-height: 1;
-	}
+    .showcase-content h1 {
+        font-size: 2.5rem;
+        line-height: 1;
+    }
 
-	.showcase-content p {
-		font-size: 1rem;
-	}
+    .showcase-content p {
+        font-size: 1rem;
+    }
 
 
     #tab-1-content .tab-1-content-inner {
