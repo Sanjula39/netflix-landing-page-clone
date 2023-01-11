@@ -1,1 +1,1 @@
-# netflix-landing-page-clone
+# netflix-landing-page-clone using HTML CSS and JavaScript 
