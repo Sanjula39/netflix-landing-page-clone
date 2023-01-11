@@ -167,10 +167,11 @@ img {
     display: none;
 
 }
-.show{
+
+.show {
     display: block !important;
 }
-    
+
 
 
 #tab-1-content .tab-1-content-inner {
@@ -330,6 +331,11 @@ img {
     padding: 0.8rem 1.3rem;
     text-transform: uppercase;
 
+}
+
+.btn-icon {
+    margin-left: 1rem;
+    
 }
 
 
